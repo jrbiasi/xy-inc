@@ -15,10 +15,10 @@ Execute o comando abaixo para criar o banco e a tabela do sistema ou utilize os 
 CREATE SCHEMA IF NOT EXISTS `pois` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
 
 CREATE TABLE IF NOT EXISTS `pois`.`lista_pois` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `nome` varchar(80) DEFAULT NULL,
-  `cor_x` int(5) DEFAULT NULL,
-  `cor_y` int(5) DEFAULT NULL,
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(50) NOT NULL,
+  `cor_x` INT(10) UNSIGNED NOT NULL,
+  `cor_y` INT(10) UNSIGNED NOT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
