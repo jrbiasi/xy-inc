@@ -12,7 +12,8 @@ define("PDO_DB", "testes");
 define("PDO_PASS", "");
 define("PDO_DRIVER", "mysql");
 define("PDO_PORT", "3306");
-define("PATH", "XY/");
+#caso esteja em uma subpasta configure exe: 'http://localhost/teste/' ficando: define("PATH", "teste/");
+define("PATH", "");
 
 if(!defined('PS'))
     define( 'PS', PATH_SEPARATOR );
