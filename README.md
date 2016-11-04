@@ -6,7 +6,7 @@ Para realizar teste local deve ter instalado um servidor PHP (Wamp, Xampp) e ban
 
 # Instalação / Configuração
 
-  Após realizar o download do código realize a descompactação e copie a pasta httdocs para a raiz do(Wamp/Xampp).
+  Após realizar o download do código realize a descompactação e copie os arquivos para a raiz do(Wamp/Xampp).
 
 Execute o comando abaixo para criar o banco e a tabela do sistema ou utilize os arquivos dentro da pasta "DB":
 
